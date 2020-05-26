@@ -14,7 +14,7 @@
     ".eslintrc.yml"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://github.com/tanlg/ats-frontend-tools.git"
   },
   "devDependencies": {
     "babel-eslint": "8.1.2",
@@ -27,5 +27,6 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
-  }
+  },
+  "gitHead": "6007966475ca567f2a77f3614a88dd5d24d4f68a"
 }

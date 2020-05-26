@@ -3,7 +3,7 @@ parser: babel-eslint
 parserOptions:
   sourceType: module
   ecmaFeatures:
-    classes: true
+    classes: false
     modules: true
     blockBindings: true
     forOf: true

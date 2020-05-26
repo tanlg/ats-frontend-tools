@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://github.com/tanlg/ats-frontend-tools.git"
   },
   "scripts": {
     "lint": "eslint src",
@@ -22,5 +22,6 @@
     "test:w": "jest --watch",
     "prebuild": "npm run lint && npm test",
     "build": "microbundle --sourcemap=false"
-  }
+  },
+  "gitHead": "6007966475ca567f2a77f3614a88dd5d24d4f68a"
 }
