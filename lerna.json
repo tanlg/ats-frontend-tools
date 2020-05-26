@@ -1,0 +1,12 @@
+{
+  "npmClient": "npm",
+  "packages": ["packages/*"],
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md", "*.txt"],
+      "message": "release: publish",
+      "registry": "https://gitlab.mokahr.com/ats-client/ats-frontend-tools"
+    }
+  }
+}

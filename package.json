@@ -1,0 +1,14 @@
+{
+  "name": "ats-frontend-tools",
+  "private": true,
+  "version": "1.0.0",
+  "description": "ats前端使用的一些的工具包",
+  "scripts": {
+    "test": "lerna run test"
+  },
+  "author": "ats",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
+}
